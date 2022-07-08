@@ -1,0 +1,16 @@
+CRITICAL - 2022-06-28 09:35:53 --> Undefined variable $title
+in APPPATH\Views\template\user_header.php on line 6.
+ 1 APPPATH\Views\template\user_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\template\\user_header.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\user_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/user_header', null, true)
+ 5 APPPATH\Views\user\index.php(1): CodeIgniter\View\View->include('template/user_header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/index', [], true)
+ 9 APPPATH\Controllers\User.php(9): view('user/index')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,112 @@
+CRITICAL - 2022-06-29 02:31:11 --> Undefined variable $q
+in APPPATH\Views\admin\pelayanan\index.php on line 4.
+ 1 APPPATH\Views\admin\pelayanan\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $q', 'APPPATH\\Views\\admin\\pelayanan\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pelayanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pelayanan/index', [], true)
+ 5 APPPATH\Controllers\Pelayanan.php(10): view('admin/pelayanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 02:31:30 --> Undefined variable $artikel
+in APPPATH\Views\admin\pelayanan\index.php on line 13.
+ 1 APPPATH\Views\admin\pelayanan\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $artikel', 'APPPATH\\Views\\admin\\pelayanan\\index.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pelayanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pelayanan/index', [], true)
+ 5 APPPATH\Controllers\Pelayanan.php(10): view('admin/pelayanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 02:36:34 --> Undefined variable $pelayanan
+in APPPATH\Views\admin\pelayanan\index.php on line 14.
+ 1 APPPATH\Views\admin\pelayanan\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelayanan', 'APPPATH\\Views\\admin\\pelayanan\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pelayanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pelayanan/index', [], true)
+ 5 APPPATH\Controllers\Pelayanan.php(10): view('admin/pelayanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 02:44:40 --> Undefined array key "id"
+in APPPATH\Views\admin\pelayanan\index.php on line 16.
+ 1 APPPATH\Views\admin\pelayanan\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\admin\\pelayanan\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pelayanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pelayanan/index', [], true)
+ 5 APPPATH\Controllers\Pelayanan.php(14): view('admin/pelayanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 03:17:59 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Pelayanan.php(31): redirect('p/pelayanan')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->add()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 04:07:14 --> Too few arguments to function App\Controllers\Pelayanan::edit(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Pelayanan.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 04:08:13 --> Too few arguments to function App\Controllers\Pelayanan::edit(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Pelayanan.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 04:12:24 --> Too few arguments to function App\Controllers\Pelayanan::edit(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Pelayanan.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 04:12:59 --> Too few arguments to function App\Controllers\Pelayanan::edit(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Pelayanan.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 04:15:28 --> Too few arguments to function App\Controllers\Pelayanan::edit(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Pelayanan.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 04:15:34 --> Too few arguments to function App\Controllers\Pelayanan::edit(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Pelayanan.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pelayanan->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-29 08:55:48 --> Undefined variable $loket
+in APPPATH\Views\admin\loket\index.php on line 18.
+ 1 APPPATH\Views\admin\loket\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loket', 'APPPATH\\Views\\admin\\loket\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\loket\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/loket/index', [], true)
+ 5 APPPATH\Controllers\Loket.php(14): view('admin/loket/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Loket->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

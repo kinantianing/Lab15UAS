@@ -1,0 +1,525 @@
+CRITICAL - 2022-07-07 00:08:10 --> Too few arguments to function App\Controllers\Antrian::index(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 00:09:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\antrian\index.php on line 7.
+ 1 APPPATH\Views\user\antrian\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\antrian\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(27): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 00:26:27 --> Too few arguments to function App\Controllers\Antrian::index(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 00:26:42 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 7.
+ 1 APPPATH\Views\user\antrian\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(27): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 00:28:17 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 7.
+ 1 APPPATH\Views\user\antrian\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(28): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 00:28:32 --> Undefined array key "no_antrian"
+in APPPATH\Views\user\antrian\index.php on line 7.
+ 1 APPPATH\Views\user\antrian\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_antrian"', 'APPPATH\\Views\\user\\antrian\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(28): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 00:28:43 --> Undefined array key "loket_id"
+in APPPATH\Views\user\antrian\index.php on line 7.
+ 1 APPPATH\Views\user\antrian\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "loket_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(28): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 07:27:04 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 07:28:36 --> Cannot access offset of type string on string
+in APPPATH\Views\user\antrian\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 4 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 07:29:40 --> Too few arguments to function App\Controllers\Antrian::index(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 07:29:48 --> Too few arguments to function App\Controllers\Antrian::index(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 07:33:47 --> Too few arguments to function App\Controllers\Antrian::index(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-07 07:34:15 --> Unknown column '$antrian_id' in 'where clause'
+CRITICAL - 2022-07-07 07:34:15 --> Unknown column '$antrian_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+WHERE `$antrian_id` = 3
+AND `antrian`.`waktu_selesai` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+WHERE `$antrian_id` = 3
+AND `antrian`.`waktu_selesai` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+WHERE `$antrian_id` = 3
+AND `antrian`.`waktu_selesai` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+WHERE `$antrian_id` = :$antrian_id:
+AND `antrian`.`waktu_selesai` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Antrian.php(23): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-07 07:34:28 --> Unknown column '$antrian_id' in 'where clause'
+CRITICAL - 2022-07-07 07:34:28 --> Unknown column '$antrian_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+WHERE `$antrian_id` IS NULL
+AND `antrian`.`waktu_selesai` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+WHERE `$antrian_id` IS NULL
+AND `antrian`.`waktu_selesai` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+WHERE `$antrian_id` IS NULL
+AND `antrian`.`waktu_selesai` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+WHERE `$antrian_id` IS NULL
+AND `antrian`.`waktu_selesai` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Antrian.php(23): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:03:46 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:04:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:05:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:08:44 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:08:57 --> Undefined array key "loket_id"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "loket_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:21:32 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:22:22 --> Undefined array key "tanggal"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:22:48 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:24:08 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(25): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:25:37 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:26:22 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\index.php on line 5.
+ 1 APPPATH\Views\user\antrian\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:30:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\antrian\index.php on line 16.
+ 1 APPPATH\Views\user\antrian\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\antrian\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:33:15 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\user\antrian\index.php on line 14.
+ 1 APPPATH\Views\user\antrian\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\user\\antrian\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/index', [], true)
+ 5 APPPATH\Controllers\Antrian.php(24): view('user/antrian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:34:49 --> CodeIgniter\BaseModel::setAllowedFields(): Argument #1 ($allowedFields) must be of type array, int given, called in C:\xampp\htdocs\lab15uas\ci4\app\Controllers\Antrian.php on line 23
+in SYSTEMPATH\BaseModel.php on line 1098.
+ 1 APPPATH\Controllers\Antrian.php(23): CodeIgniter\BaseModel->setAllowedFields(1)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:41:30 --> Too few arguments to function App\Controllers\Antrian::nomor(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:44:22 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\user\antrian\dashboard.php on line 16.
+ 1 APPPATH\Views\user\antrian\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\user\\antrian\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/dashboard', [], true)
+ 5 APPPATH\Controllers\Antrian.php(78): view('user/antrian/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:45:20 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\user\antrian\dashboard.php on line 16.
+ 1 APPPATH\Views\user\antrian\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\user\\antrian\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/dashboard', [], true)
+ 5 APPPATH\Controllers\Antrian.php(78): view('user/antrian/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:47:27 --> Too few arguments to function App\Controllers\Antrian::nomor(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:47:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\antrian\nomor.php on line 6.
+ 1 APPPATH\Views\user\antrian\nomor.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\antrian\\nomor.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\nomor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/nomor', [], true)
+ 5 APPPATH\Controllers\Antrian.php(78): view('user/antrian/nomor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:47:50 --> Too few arguments to function App\Controllers\Antrian::nomor(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:49:49 --> Too few arguments to function App\Controllers\Antrian::nomor(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:50:51 --> Too few arguments to function App\Controllers\Antrian::nomor(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:51:10 --> Too few arguments to function App\Controllers\Antrian::nomor(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:51:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\antrian\nomor.php on line 6.
+ 1 APPPATH\Views\user\antrian\nomor.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\antrian\\nomor.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\nomor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/nomor', [], true)
+ 5 APPPATH\Controllers\Antrian.php(78): view('user/antrian/nomor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:52:07 --> Too few arguments to function App\Controllers\Antrian::nomor(), 0 passed in C:\xampp\htdocs\lab15uas\ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Antrian.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:52:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\antrian\nomor.php on line 6.
+ 1 APPPATH\Views\user\antrian\nomor.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\antrian\\nomor.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\nomor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/nomor', [], true)
+ 5 APPPATH\Controllers\Antrian.php(78): view('user/antrian/nomor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:56:14 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\nomor.php on line 6.
+ 1 APPPATH\Views\user\antrian\nomor.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\nomor.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\nomor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/nomor', [], true)
+ 5 APPPATH\Controllers\Antrian.php(78): view('user/antrian/nomor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:58:07 --> Undefined array key "antrian_id"
+in APPPATH\Views\user\antrian\nomor.php on line 7.
+ 1 APPPATH\Views\user\antrian\nomor.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "antrian_id"', 'APPPATH\\Views\\user\\antrian\\nomor.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\antrian\\nomor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/nomor', [], true)
+ 5 APPPATH\Controllers\Antrian.php(78): view('user/antrian/nomor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 08:58:34 --> Cannot access offset of type string on string
+in APPPATH\Views\user\antrian\nomor.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/nomor', [], true)
+ 4 APPPATH\Controllers\Antrian.php(78): view('user/antrian/nomor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 09:03:07 --> Cannot access offset of type string on string
+in APPPATH\Views\user\antrian\nomor.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/antrian/nomor', [], true)
+ 4 APPPATH\Controllers\Antrian.php(78): view('user/antrian/nomor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-07 09:05:39 --> Unknown column 'antrian' in 'where clause'
+CRITICAL - 2022-07-07 09:05:39 --> Unknown column 'antrian' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `antrian`
+WHERE `antrian` = \'DESC\'
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `antrian`
+WHERE `antrian` = \'DESC\'
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `antrian`
+WHERE `antrian` = \'DESC\'
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `antrian`
+WHERE `antrian` = :antrian:
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\AntrianModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Antrian.php(76): App\Models\AntrianModel->getNomor()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Antrian->nomor()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

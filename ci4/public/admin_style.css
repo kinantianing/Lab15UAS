@@ -1,0 +1,276 @@
+/* RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 3;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+}
+
+.navbar a {
+    padding: 3px 10px;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    color: #EAEDED;
+
+}
+
+.navbar {
+    padding: 0px 0px;
+}
+
+.container {
+    padding: 10px 0px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #ccc;
+}
+
+.container-fluid {
+    padding-bottom: 1;
+    height: 70px;
+
+}
+
+.list-group {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 270px;
+}
+
+.dashboard {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+
+.content {
+    padding-top: 40px;
+    padding-right: 60px;
+}
+
+.sidebar {
+    background-color: #D4EFDF;
+    height: 1000px;
+    padding-top: 0;
+    width: 270px;
+}
+
+/* BUTTON PANGGIL*/
+
+#panggil:link,
+#panggil:visited {
+    background-color: #86B9A8;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#panggil:hover,
+#panggil:active {
+    background-color: #34A991;
+}
+
+#selesai:link,
+#selesai:visited {
+    background-color: #EC7063;
+    color: white;
+    padding: 6px 13px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#selesai:hover,
+#selesai:active {
+    background-color: #CD6155;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    height: 45px;
+    background-color: #1d1d1d;
+    color: #eee;
+}
+
+/* BUTTON AKSI*/
+#ubah:link,
+#ubah:visited {
+    background-color: #A6ACAF;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#ubah:hover,
+#ubah:active {
+    background-color: #909497;
+}
+
+#hapus:link,
+#hapus:visited {
+    background-color: #EC7063;
+    color: white;
+    padding: 6px 13px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#hapus:hover,
+#hapus:active {
+    background-color: #CD6155;
+}
+
+.table {
+    text-align: center;
+}
+
+/* BUTTON KIRIM */
+button[type=submit] {
+    height: 42px;
+    width: 60px;
+    background-color: #34A991;
+    border: 1px solid;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+/* ADD JUDUL*/
+.nama {
+    margin-top: 20px;
+    padding: 5px 5px;
+    width: 400px;
+    height: 35px;
+}
+
+.textarea {
+    padding: 5px 5px;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 0%;
+}
+
+.pelayanan_id {
+    margin-top: 0%;
+    padding: 5px 5px;
+    width: 275px;
+    height: 35px;
+    margin-bottom: 25px;
+}
+
+/* button add */
+.add:link,
+.add:visited {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #86B9A8;
+    color: white;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.add:hover,
+.add:active {
+    background-color: #34A991;
+}
+
+
+.card {
+    margin-top: 35px;
+    width: 300px;
+    background-color: #86B9A8;
+}
+
+.card-text {
+    border: 1px solid #93AFA4;
+    border-radius: 3px;
+    height: 100px;
+    padding-right: 10px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card-title {
+    text-align: center;
+    padding: 6px 6px;
+    border: 1px solid #93AFA4;
+    background-color: #F8C471;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.status {
+    margin-top: 40px;
+}
+
+/* PAGER */
+.pager nav {
+    padding-top: 25px;
+    background-color: white;
+}
+
+.pager ul li {
+    display: inline-block;
+    background-color: #A6ACAF;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pager .pagination .active {
+    background-color: #34A991;
+    border-radius: 5px;
+    color: white;
+}
+
+.pagination a {
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pager .pagination a:hover {
+    background-color: #34A991;
+    color: white;
+}
+
+
+.dashboard {
+    padding-left: 50px;
+}
+
+.table {
+    text-align: center;
+}
