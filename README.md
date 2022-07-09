@@ -5,5 +5,5 @@
 **Kelas : TI.20.A2** <br>
 **Matkul : Pemrograman Web** <br>
 
-## LINK HOSTING TAMPILAN ADMIN : http://kinnann.epizy.com/
-## INK HOSTING TAMPILAN USER : http://kinnann.epizy.com/user
+### LINK HOSTING TAMPILAN ADMIN : http://kinnann.epizy.com/
+### LINK HOSTING TAMPILAN USER : http://kinnann.epizy.com/user
